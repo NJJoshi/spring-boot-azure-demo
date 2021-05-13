@@ -15,7 +15,7 @@ public class SpringBootAzureDemoApplication {
 
     @GetMapping("/greet")
     public String greet() {
-        return "Congratulations Nirav Joshi!! You have successfully deployed first spring boot app to Azure.";
+        return "Congratulations Nirav !! You have successfully deployed first spring boot app to Azure.";
     }
 
     @GetMapping("/message")
